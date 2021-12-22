@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Fundo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.topo{
+    color: whitesmoke;
+    background-color:rgba(0, 0, 0, 0.258);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#gif{
+    position: absolute;
+    top: 70px;
+    left: 3%;
+    width: 9rem;
+    border-radius: 30%;
+}
+a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+h1, p{
+    text-align: center;
+    text-shadow: indianred 1px 1px 1px;
+    font-weight: bolder;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 400px;
+    background-color: rgba(93, 92, 118, 0.734);
+    font-size: 25px;
+    color: black;
+}
+.linguagens{
+    display: inline-flex;
+    width: 7%;
+    margin: auto 40%;
+    
+}
